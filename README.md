@@ -1,4 +1,4 @@
-# 🎙️ Text-to-Speech (TTS) Optimization Project
+# 🎙️ Text-to-Speech Optimization Project
 
 A fast and lightweight web application that converts text into spoken audio files. Built using **Python**, **FastAPI**, and **gTTS** (Google Text-to-Speech), this project features quick response times and supports audio streaming.
 
