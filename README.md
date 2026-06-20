@@ -29,8 +29,6 @@ A fast and lightweight web application that converts text into spoken audio file
 tts_project/
 ├── main.py            # Main application setup and API endpoints
 ├── test.py            # Unit testing script
-├── requirements.txt   # Required Python libraries and dependencies
-├── audio/             # Directory where generated MP3 files are saved
 └── README.md          # Project documentation
 ```
 
