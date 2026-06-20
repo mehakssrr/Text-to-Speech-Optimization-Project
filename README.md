@@ -1,57 +1,92 @@
-Text-to-Speech (TTS) Optimization Project
-Overview
-This project converts text into speech using Python, FastAPI, and gTTS. The main objective is to generate audio output from user-provided text while improving response time and supporting audio streaming.
+# 🎙️ Text-to-Speech (TTS) Optimization Project
 
-Features
-Convert text to speech
-Generate MP3 audio files
-FastAPI-based API
-Audio streaming support
-Simple and lightweight implementation
-Technologies Used
-Python
-FastAPI
-gTTS (Google Text-to-Speech)
-Uvicorn
-Project Structure
+A fast and lightweight web application that converts text into spoken audio files. Built using **Python**, **FastAPI**, and **gTTS** (Google Text-to-Speech), this project features quick response times and supports audio streaming.
+
+---
+
+## ✨ Features
+
+* **Text-to-Speech Conversion**: Instantly turns any user-provided text into speech.
+* **MP3 Generation**: Automatically creates and saves high-quality MP3 audio files.
+* **FastAPI Backend**: Built on a modern, high-performance API framework.
+* **Audio Streaming**: Supports real-time audio playback streaming for faster load times.
+* **Lightweight Design**: Clean code structure with minimal external dependencies.
+
+---
+
+## 🛠️ Technologies Used
+
+* **[Python](https://python.org)** - Core programming language
+* **[FastAPI](https://fastapi.tiangolo.com/)** - Modern web framework for building APIs
+* **[gTTS](https://pypi.org)** - Google Text-to-Speech library
+* **[Uvicorn](https://uvicorn.org)** - Lightning-fast ASGI server implementation
+
+---
+
+## 📂 Project Structure
+
+```text
 tts_project/
+├── main.py            # Main application setup and API endpoints
+├── test.py            # Unit testing script
+├── requirements.txt   # Required Python libraries and dependencies
+├── audio/             # Directory where generated MP3 files are saved
+└── README.md          # Project documentation
+```
 
-├── main.py
+---
 
-├── test.py
+## 🚀 Installation & Setup
 
-├── requirements.txt
+Follow these simple steps to run the project locally on your machine:
 
-├── audio/
+### 1. Clone the Repository
+```bash
+git clone https://github.com
+cd TTS-Project
+```
 
-└── README.md
+### 2. Install Dependencies
+Make sure you have Python installed, then run:
+```bash
+pip install -r requirements.txt
+```
 
-Installation
-Clone the repository: git clone https://github.com/divya5055/TTS-Project.git
-
-Navigate to the project folder: cd TTS-Project
-
-Install dependencies: pip install -r requirements.txt
-
-Running the Project
-Start the FastAPI server:
-
+### 3. Run the Server
+Start the development server using Uvicorn:
+```bash
 uvicorn main:app --reload
+```
 
-Open in browser:
+---
 
-http://127.0.0.1:8000
+## 📡 API Endpoint Usage
 
-API Endpoint
-Generate speech:
+Once the server is running, open your web browser or an API client (like Postman) and use the following link layout:
 
-http://127.0.0.1:8000/tts?text=Hello World
+* **Base URL**: `http://127.0.0.1:8000`
+* **TTS Endpoint**: `/tts`
 
-Output
-MP3 audio file
-Audio stream response
-Future Improvements
-Real-time streaming
-Multiple language support
-Voice selection
-Improved speech quality
+### Example Request:
+```text
+http://127.0.0
+```
+
+### Expected Output:
+* An **MP3 audio file** is generated and saved in the `audio/` folder.
+* An **Audio stream response** plays directly in your web browser.
+
+---
+
+## 🔮 Future Improvements
+
+- [ ] Add real-time user streaming
+- [ ] Implement multiple language support options
+- [ ] Add custom voice selection toggles
+- [ ] Integrate advanced speech synthesis models for improved audio quality
+
+---
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
