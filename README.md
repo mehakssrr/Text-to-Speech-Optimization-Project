@@ -87,3 +87,9 @@ http://127.0.0
 
 ---
 
+
+## 👤 Author & Contact
+
+* **Name**: Mehak Sharma
+* **Email**: mehak.ssrr@gmail.com
+* **GitHub**: https://github.com/mehakssrr
